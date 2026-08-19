@@ -298,10 +298,10 @@ section {
    HERO SECTION (Squarespace Centered Typographic Contrast Style)
    ========================================================================== */
 .hero-section {
-    padding-top: 140px;
-    padding-bottom: 80px;
+    padding-top: 240px;
+    padding-bottom: 160px;
     background-color: var(--color-bg); /* #FFFFFF */
-    min-height: 80vh;
+    min-height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1229,7 +1229,7 @@ select option {
 
 @media (min-width: 1300px) {
     .courses-grid {
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
@@ -1250,9 +1250,9 @@ select option {
 }
 
 .course-card:hover {
-    transform: translateY(-4px);
-    border-color: var(--color-border);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+    transform: translateY(-3px);
+    border-color: rgba(0, 0, 0, 0.12);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
 }
 
 .card-banner {
