@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Configuración del destino de Google Sheets
     // REEMPLAZAR ESTA URL con la de tu Google Apps Script Web App desplegada
-    const GOOGLE_SHEETS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbw1kbtlLlz_A1671ezTnDiltc0zVUumHzyK9E6bWJugEj1cMqzG0ptCuaT8Zqu1IbEP/exec';
+    const GOOGLE_SHEETS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxA0KDRfXmK2iVt_Oy7Ec-mG_hirQqwjcVRcCqR-XKxxbS_EunBPdOWpkWt6Mcg-DU/exec';
 
     // Función para abrir el modal
     const openModal = (courseName = '') => {
